@@ -1,40 +1,245 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Arun Joseph</title>
+    <title>Responsive Personal Portfolio Website - HTML, CSS & Vanilla Javascript</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-</head>
-<body>
-    <section class="main" id="main">
-        <div class="content">
-          <h2>Hello, I'm<br><span>Arun Joseph</span></h2>
-          <div class="animated-text">
-            <h3>Product Evangelist</h3>
-            <h3>Web Developer</h3>
-            <h3>UI/UX Designer</h3>
-          </div>
-          <a href="#" class="btn">See My Work</a>
-          <div class="media-icons">
-            <a href="https://twitter.com/arunjos2000"><i class="fab fa-twitter"></i></a>
-            <a href="https://github.com/arunjos2000"><i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/arunjos2000/"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-      </section>
-    <script src="script.js" charset="utf-8"></script>
-</body>
-</html>
+  </head>
+  <body>
 
-<!-- <header class="site-header">
-        <img class="profile-pic" src="https://media-exp1.licdn.com/dms/image/C5603AQF6V6kJ3Q4gkA/profile-displayphoto-shrink_200_200/0/1624439021219?e=1634774400&v=beta&t=R2LvSznGuzhJd3nVcuGyHEAF7XviwIXoSR95yMC6H7U" alt="Arun's Photo">
-        <div class="site-header-content">
-            <h1>Hi, I am Arun Joseph, I am 19 years old, living in Thrissur, Kerala, India</h1>
-            <h3>I am learning a things which interets me. Right now I am up with MERN & PM</h3>
-            <h3>If you want to know more about me go here -> <a class="profile-link" href="https://www.linkedin.com/in/arunjos2000/">LinkedIn</a> </h3>
+    <div class="scrollToTop-btn">
+      <i class="fas fa-angle-up"></i>
+    </div>
+
+    <header>
+      <a href="#" class="brand">Arun</a>
+      <div class="menu-btn"></div>
+      <div class="navigation">
+        <a href="#main">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <section class="main" id="main">
+      <div class="content">
+        <h2>Hello, I'm<br><span>Arun joseph</span></h2>
+        <div class="animated-text">
+          <h3>UI/UX Designer</h3>
+          <h3>Web Developer</h3>
+          <h3>Product Evangelist</h3>
         </div>
-    </header> -->
+        <a href="#" class="btn">Follow me at</a>
+        <div class="media-icons">
+          <a href="https://github.com/arunjos2000"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/arunjos2000/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://twitter.com/arunjos2000"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="title reveal">
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <div class="img-card">
+            <img src="images/arun.jpg" alt="">
+          </div>
+        </div>
+        <div class="column col-right reveal">
+          <h2 class="content-title">Hey There! I'm Arun Joseph</h2>
+          <p class="paragraph-text"> Arun Joseph, an aspiring PM with intermediate taste on UX. He likes designing and developing tools that helps people.
+
+            Arun loves networking and just simple as talking to like minded people. He has started up various initiatives in his college which helps students acquire knowledge in tech and find things they are passionate about. He also helps them in finding paid internships and full time roles.
+            
+            “If you have an startup idea , stop thinking and start building ,you never know what could be the results”
+            
+            Feel free to connect with him.</p>
+          <a href="#skills" class="btn">See More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="title reveal">
+        <h2 class="section-title">My Skills</h2>
+      </div>
+      <div class="content">
+        <div class="column col-left reveal">
+          <h2 class="content-title">My Skills and Experiences</h2>
+          <p> I have been developing web solutions and products for variuous problems. Please check my github for more.
+        </div>
+        <div class="column col-right reveal">
+          <div class="bar">
+            <div class="info">
+              <span>HTML</span>
+              <span>95%</span>
+            </div>
+            <div class="line html"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>CSS</span>
+              <span>85%</span>
+            </div>
+            <div class="line css"></div>
+          </div>
+          <div class="bar">
+            <div class="info">
+              <span>Javascript</span>
+              <span>80%</span>
+            </div>
+            <div class="line javascript"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="title reveal">
+        <h2 class="section-title">I love doing</h2>
+        <p> These are stuffs which i do in my free time just to kill time. I love doing them very much. </p>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-palette"></i>
+          </div>
+          <div class="info">
+            <h3>Web Design</h3>
+            <p>Web design refers to the design of websites that are displayed on the internet. It usually refers to the user experience aspects of website development rather than software development.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-file-code"></i>
+          </div>
+          <div class="info">
+            <h3>Web Development</h3>
+            <p>Web development is the work involved in developing a Web site for the Internet or an intranet. Web development can range from developing a simple single static page of plain text to complex web applications.</p>
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="service-icon">
+            <i class="fas fa-object-group"></i>
+          </div>
+          <div class="info">
+            <h3>Product Management</h3>
+            <p>Product management is an organisational function within a company dealing with new product development, business, planning, forecasting, pricing, launch, and marketing of a product or products.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <div class="title reveal">
+        <h2 class="section-title">My Work</h2>
+      </div>
+      <div class="content">
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work1.jpg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work2.jpg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work3.jpg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work4.jpg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work5.jpg" alt="">
+          </div>
+        </div>
+        <div class="card reveal">
+          <div class="card-img">
+            <img src="images/work6.jpg" alt="">
+          </div>
+        </div>
+        <div class="title reveal">
+          <a href="#" class="btn">See All</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="title reveal">
+        <h2 class="section-title">Contact Me</h2>
+      </div>
+      <div class="content">
+        <div class="row">
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info">
+              <h3>Address</h3>
+              <span>Thrissur, Kerala, India</span>
+            </div>
+          </div>
+       
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info">
+              <h3>Email Address</h3>
+              <span>arunjoseph2019@cce.edu.in</span>
+            </div>
+          </div>
+          <div class="card reveal">
+            <div class="contact-icon">
+              <i class="fas fa-globe"></i>
+            </div>
+            <div class="info">
+              <h3>Website</h3>
+              <span>arunjos2000.github.io/Portfolio</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact-form reveal">
+            <h3>Send Message</h3>
+            <div class="input-box">
+              <input type="text" name="" value="" placeholder="Name">
+            </div>
+            <div class="input-box">
+              <input type="text" name="" value="" placeholder="Email">
+            </div>
+            <div class="input-box">
+              <textarea name="name" rows="8" cols="80" placeholder="Message"></textarea>
+            </div>
+            <div class="input-box">
+              <input type="submit" class="send-btn" name="" value="Send">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <span class="footer-title">Arun Joseph</span>
+      <p>Copyright @2021 <a href="https://www.linkedin.com/in/arunjos2000/">Arun Joseph</a>. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js" charset="utf-8"></script>
+
+  </body>
+</html>
